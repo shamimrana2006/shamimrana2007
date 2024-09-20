@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
               </Button>
             </div>
             <div className="flex gap-1">
-              <Button variant="text" className="text-green-500 font-bold">
+              <Button variant="text" sx={{color:"#10df14", fontWeight: "bold"}}>
                 <Link href={"/register"}>Join</Link>
               </Button>
             </div>
