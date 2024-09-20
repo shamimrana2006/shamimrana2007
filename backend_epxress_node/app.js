@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
   console.log(err.statusCode);
 
-  res.send(`server is error status code is and message is ${err.message} `);
+  res.send(`server is error status code is ${err.statusCode} and message is ${err.message} `);
 });
 
 module.exports = app;
